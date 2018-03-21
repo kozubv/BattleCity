@@ -1,0 +1,23 @@
+# name		N
+# texture	T
+# size_x	sX
+# size_y	xY
+# frameTime	FT
+# sprite_rect_left_angle_x 	spX
+# sprite_rect_left_angle_y 	spy
+# num_frame	NF
+# loop_flag LF
+# NF	T 		sX sY FT 	spX spY NF  LF 
+PlayerA	Tanks	32 32 0.2	0	32	2	1
+PlayerB	Tanks	32 32 0.2	64	32	2	1
+PlayerC	Tanks	32 32 0.2	128	32	2	1
+PlayerD	Tanks	32 32 0.2	192	32	2	1
+# enemy tanks
+Enemy1	Tanks	32 32 0.2	0	456	2	1
+Enemy2	Tanks	32 32 0.2	0	584	2	1
+Enemy3	Tanks	32 32 0.2	0	712	2	1
+Enemy4	Tanks	32 32 0.2	0	840	2	1
+# visual effects
+Flare	Tanks	32 32 0.2	256	32	6	0
+Shine	Tanks	32 32 0.2	256	0	2	1
+Bang	Tanks	32 32 0.2	256	64	3	0
